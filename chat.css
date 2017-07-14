@@ -1,0 +1,100 @@
+#wp_dashboard_chat .inside {
+	max-height: 500px;
+	padding: 0 !important;
+}
+
+#wp_dashboard_chat .inside .error {
+	background: #ff0000;
+	margin: 10px;
+	padding: 10px;
+	color: #fff;
+	border-radius:5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+#wp_dashboard_chat .inside #chat_wrapper {
+	height: 300px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+#wp_dashboard_chat .inside #messages {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#wp_dashboard_chat .inside #messages tr {
+	border-bottom: solid 1px #DFDFDF;
+}
+
+#wp_dashboard_chat .inside #messages tr td.avatar {
+	width: 32px;
+	padding: 15px;
+	vertical-align: top;
+}
+
+#wp_dashboard_chat .inside #messages tr td.message {
+	padding: 15px 15px 10px 0;
+	line-height: 1.4;
+}
+
+#wp_dashboard_chat .inside #messages tr td.actions {
+	vertical-align: center;
+	padding: 0 15px 0 0;
+	width: 10px;
+}
+
+#wp_dashboard_chat .inside #messages tr td.actions a.rep {
+	display: block;
+	width: 9px;
+	height: 12px;
+	background: url(reply.png) center center no-repeat;
+	opacity: 0.5;
+}
+
+#wp_dashboard_chat .inside #messages tr td.actions a.rep:hover {
+	opacity: 1;
+}
+
+#wp_dashboard_chat .inside #messages tr td.actions a.del {
+	display: block;
+	width: 10px;
+	height: 10px;
+	background: url(delete.png) center center no-repeat;
+	opacity: 0.5;
+}
+
+#wp_dashboard_chat .inside #messages tr td.actions a.del:hover {
+	opacity: 1;
+}
+
+#wp_dashboard_chat .inside #messages tr td.message span.meta {
+	color: #777;
+	display: block;
+	padding: 8px 0 0 0;
+}
+
+#wp_dashboard_chat .inside #new_message {
+	padding: 20px;
+	border-top: solid 1px #DFDFDF;
+}
+
+#wp_dashboard_chat .inside #new_message textarea {
+	width: 100%;
+	height: 50px;
+	resize: none;
+	display: block;
+	float: left;
+	margin-bottom: 10px;
+}
+
+#wp_dashboard_chat .inside #new_message #submit_message {
+	float: left;
+	margin-right: 5px;
+}
+
+#wp_dashboard_chat .inside #new_message #scroll {
+	float: left;
+	margin-right: 5px;
+}
